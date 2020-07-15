@@ -5,5 +5,5 @@ module: 1
 
 # Conclusions
 
-That is it for Week 1. I hope you are excited for this course and everything we are going to learn this semester.
 
+This week was just a gentle beginning to Unity.  There wasn't any coding involved, and it allowed you to focus on the logic of what you wanted it to do.  You did a great job and I hope you enjoyed it!  Please let me know if you have any questions!
