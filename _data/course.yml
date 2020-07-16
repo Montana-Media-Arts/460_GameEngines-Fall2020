@@ -4,7 +4,7 @@ description: A course to teach game design and programming using a game engine.
 institution: University of Montana, School of Media Arts
 institution-short: Media Arts | Montana
 
-infoModules: [workspace, syllabus, dates, instructors, help]
+infoModules: [syllabus, dates, instructors, help]
 
 
 modules: [week-1]
