@@ -6,7 +6,7 @@ jotted: false
 
 # Download Unity
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F-JZBnssBs8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
 
 Unity uses centralized software called the Unity Hub, allowing users to install different versions of Unity on the same machine.  The Unity Hub allows you to support today's projects from today as well as ones in the future or even previous projects.
 
@@ -23,7 +23,7 @@ Unity uses centralized software called the Unity Hub, allowing users to install 
 
 # Install Unity
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-pANOxhxrK4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
 
 After you install the UnityHub, it will attempt to install the most recent version.  It will also have you sign up for an account or login.  I recommend creating an accoun so you can access the Assets Store.
 
@@ -39,7 +39,7 @@ If an install hasn't finished, wait for the most recent version to install or yo
 
 Wait for the install to complete and then click on Projects.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a6UDsU8Q2Cw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
 
 1. Click **New**.
 2. In the **Create New Project**, click **2D Template**.
