@@ -13,6 +13,7 @@ In this session we are going to start on our online journey talking about Unity.
 
 At the conclusion of this module, students should;
 
+- Ensure that a GitHub account repository has been created.
 - Be introduced to the Unity Game Engine.
 - Be able to use the Unity Playground.
 - Understand assets and scripts.
