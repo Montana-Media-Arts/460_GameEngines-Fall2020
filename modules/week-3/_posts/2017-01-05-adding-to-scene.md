@@ -1,6 +1,6 @@
 ---
 title: Add to Scene
-module: 2
+module: 3
 ---
 
 # Adding to Scene

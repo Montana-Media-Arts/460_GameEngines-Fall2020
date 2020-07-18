@@ -1,13 +1,8 @@
 ---
-title: Weekly Conclusions
+title: Conclusions
 module: 2
 ---
 
-# Conclusion
+# Conclusions
 
-## Recap of the Week
-
-This week we looked at how to add new assets (ones you created or ones you found) and apply existing scripts to them.  This allowed us to focus on the design of our game and not worry about the programming aspect as much.  In this way, we can hone in on our game play while taking note of any limitations that these existing scripts might have.
-
-## Next Week
-
+This week was just a gentle beginning to Unity.  There wasn't any coding involved, and it allowed you to focus on the logic of what you wanted it to do.  You did a great job and I hope you enjoyed it!  Please let me know if you have any questions!

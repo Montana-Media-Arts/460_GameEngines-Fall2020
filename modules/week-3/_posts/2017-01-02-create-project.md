@@ -1,6 +1,6 @@
 ---
 title: Create Project
-module: 2
+module: 3
 ---
 
 # Create new 2D project
