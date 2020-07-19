@@ -7,6 +7,18 @@ module: 3
 
 If we use existing scripts, we can design a game with custom assets.  This gives us the ability to create prototypes and create proof of concepts before diving into the customization of game programming.  It also allows game designers to focus on what is most important to them - game play.
 
+If you want to move scripts over from your Playground project, copy the **Scripts** and the **_INTERNAL_** folder into your **Assets** folder.  Then, you will need to change the following in the code.
+
+```csharp
+  [AddComponentMenu("[name of Playground project]/Movement/Auto Move")]
+```
+
+to
+
+```csharp
+[AddComponentMenu("[new project]/Movement/Auto Move")]
+```
+
 In the Project window, you will find the movement scripts.
 
 ![Movement Scripts](../imgs/MovementScript.png)
