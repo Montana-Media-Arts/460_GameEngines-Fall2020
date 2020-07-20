@@ -11,5 +11,5 @@ This week we looked at how to add new assets (ones you created or ones you found
 
 ## Next Week
 
-Next week, we will dive into Beginning Scripting.  Don't worry; we will have fun!
+Next week, we will dive into creating an RPG.  We will look at some of the features that Unity has built in that allows us to create easily create these scenes.
 

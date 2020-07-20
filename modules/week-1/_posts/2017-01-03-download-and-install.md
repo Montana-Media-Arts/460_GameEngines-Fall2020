@@ -43,5 +43,5 @@ Wait for the install to complete and then click on Projects.
 
 1. Click **New**.
 2. In the **Create New Project**, click **2D Template**.
-3. In the **Project Name**, enter **InnovateHS Playground** (or whatever you want)
+3. In the **Project Name**, enter **PlaygroundGame** (or whatever you want)
 4. Click **Create**.
