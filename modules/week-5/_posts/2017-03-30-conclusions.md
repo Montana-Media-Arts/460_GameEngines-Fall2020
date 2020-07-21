@@ -6,4 +6,4 @@ jotted: false
 
 # Weekly Conclusions
 
-Did you realize you have already learned five different programming paradigms?  Can you believe it? It is fun, right?  Well, I think we are ready to write out our code. Starting with HTML, we will then look at CSS and then JavaScript.  These technologies will prepare us for p5.js, which uses JavaScript.  I hope you are as excited as I am!
+This week we look at another Unity Asset that allows us to create games using their designer tools.  The goal is to think about how to create good game play without getting bogged down in the coding specifics.  You can always look at the scripts and make changes, but at this point, it is more important that you think about a solid game design.
