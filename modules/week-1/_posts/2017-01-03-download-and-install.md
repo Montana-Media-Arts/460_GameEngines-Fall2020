@@ -14,7 +14,7 @@ jotted: false
 <div id="Download" class="tabcontent" style="display:block">
 <p>Unity uses centralized software called the Unity Hub, allowing users to install different versions of Unity on the same machine.  The Unity Hub allows you to support today's projects from today as well as ones in the future or even previous projects.</p>
 <ol>
-<li>First go to Unity <a href="http://unity3d.com/unity/" target="_blank">Unity Download</a>
+<li>First go to Unity <a href="http://unity3d.com/unity/" target="_blank">Unity Download</a></li>
 <li>Next, Click on <b>Get Started</b></li>
 <li>Click on <b>Get Started</b>.</li>
 <li>Click the <b>Individual Tab</b>.</li>
