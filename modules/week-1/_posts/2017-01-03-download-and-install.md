@@ -4,40 +4,47 @@ module: 1
 jotted: false
 ---
 
-# Download Unity
+# Unity
 
-Unity uses centralized software called the Unity Hub, allowing users to install different versions of Unity on the same machine.  The Unity Hub allows you to support today's projects from today as well as ones in the future or even previous projects.
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'Download')">Download</button>
+  <button class="tablinks" onclick="openTab(event, 'Install')">Install</button>
+</div>
 
-1. First go to Unity <a href="http://unity3d.com/unity/" target="_blank">Unity Download</a>
-2. Next, Click on **Get Started**
-3. Click on **Get Started**.
-4. Click the **Individual Tab**.
-5. Click the **Student Sign up** or **Personal Get Started** button.
-6. If you choose **Individual**, click **Start here** on the next page.
-7. Click **Agree and Download** in the Terms dialog box.
-8. Save the UnityHubSetup file on your **Desktop** or **Downloads** folder.
-8. After the download is complete, double-click on the **Unity Hub** installer file.
+<div id="Download" class="tabcontent" style="display:block">
+<p>Unity uses centralized software called the Unity Hub, allowing users to install different versions of Unity on the same machine.  The Unity Hub allows you to support today's projects from today as well as ones in the future or even previous projects.</p>
+<ol>
+<li>First go to Unity <a href="http://unity3d.com/unity/" target="_blank">Unity Download</a>
+<li>Next, Click on <b>Get Started</b></li>
+<li>Click on <b>Get Started</b>.</li>
+<li>Click the <b>Individual Tab</b>.</li>
+<li>Click the <b>Student Sign up</b> or <b>Personal Get Started</b> button.</li>
+<li>If you choose <b>Individual</b>, click <b>Start here</b> on the next page.</li>
+<li>Click <b>Agree and Download</b> in the Terms dialog box.</li>
+<li>Save the UnityHubSetup file on your <b>Desktop</b> or <b>Downloads</b> folder.</li>
+<li>After the download is complete, double-click on the <b>Unity Hub</b> installer file.</li>
+</ol>
+</div>
 
+<div id="Install" class="tabcontent">
 
-# Install Unity
+<p>After you install the UnityHub, it will attempt to install the most recent version.  It will also have you sign up for an account or login.  I recommend creating an account so you can access the Assets Store.</p>
 
-After you install the UnityHub, it will attempt to install the most recent version.  It will also have you sign up for an account or login.  I recommend creating an accoun so you can access the Assets Store.
+<p>To access the Unity Hub directly, close the dialog window and open the Unity Hub shortcut on your Desktop.</p>
 
-To access the Unity Hub directly, close the dialog window and open the Unity Hub shortcut on your Desktop.
-
-If an install hasn't finished, wait for the most recent version to install or you can add one manually.
-
-1. In the Unity Hub, click **Installs**.
-2. Click **Add**.
-3. Select the most recent version (should be on top) and click **Next**.
-4. In the **Add Modules** window, select either **Windows Build Support** or **Mac Build Support**.
-5. Click **Done**.
-
-Wait for the install to complete and then click on Projects.
-
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
-
-1. Click **New**.
-2. In the **Create New Project**, click **2D Template**.
-3. In the **Project Name**, enter **PlaygroundGame** (or whatever you want)
-4. Click **Create**.
+<p>If an install hasn't finished, wait for the most recent version to install or you can add one manually.</p>
+<ol>
+<li>In the Unity Hub, click <b>Installs</b>.</li>
+<li>Click <b>Add</b>.</li>
+<li>Select the most recent version (should be on top) and click <b>Next</b>.</li>
+<li>In the <b>Add Modules</b> window, select either <b>Windows Build Support</b> or <b>Mac Build Support</b>.</li>
+<li>Click <b>Done</b>.</li>
+</ol>
+<p>Wait for the install to complete and then click on Projects.</p>
+<ol>
+<li>Click <b>New</b>.</li>
+<li>In the <b>Create New Project</b>, click <b>2D Template</b>.</li>
+<li>In the <b>Project Name</b>, enter <b>PlaygroundGame</b> (or whatever you want)</li>
+<li>Click <b>Create</b>.</li>
+</ol>
+</div>
