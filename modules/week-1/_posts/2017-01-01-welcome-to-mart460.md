@@ -31,7 +31,7 @@ module: 1
 </div>
 
 <div id="Goals" class="tabcontent">
-<p>Goals of the clas</p>
+<p>Goals of the class</p>
 <ol>
 
 <li>Learn how to problem solve. (More specifically, how to break a problem down into sub-problems that are easier to solve by themselves)</li>
