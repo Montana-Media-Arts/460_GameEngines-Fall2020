@@ -3,6 +3,7 @@ title: Course Introduction
 module: 1
 ---
 
+# Course Introduction
 
 <div class="tab">
   <button class="tablinks" onclick="openTab(event, 'Overview')">Overview</button>
