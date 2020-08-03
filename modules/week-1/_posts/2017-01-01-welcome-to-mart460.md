@@ -3,30 +3,43 @@ title: Course Introduction
 module: 1
 ---
 
-# Overview
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'Overview')">Overview</button>
+  <button class="tablinks" onclick="openTab(event, 'Objectives')">Objectives</button>
+  <button class="tablinks" onclick="openTab(event, 'Expect')">What to Expect</button>
+  <button class="tablinks" onclick="openTab(event, 'Goals')">Goals</button> 
+  <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>  
+</div>
 
-In this session we are going to start on our online journey talking about Unity.  It's a powerful Game Engine that allows us to create any game we want. However, we are going to stick to the basics and use built-in tools so we can focus on design and avoid some of the complexity.
+<div id="Overview" class="tabcontent" style="display:block">
+<p>In this session we are going to start on our online journey talking about Unity.  It's a powerful Game Engine that allows us to create any game we want. However, we are going to stick to the basics and use built-in tools so we can focus on design and avoid some of the complexity.</p>
+</div>
 
-## Objectives
+<div id="Objectives" class="tabcontent">
+<p>At the conclusion of this week, students should:</p>
+<ul>
+<li>Ensure that a GitHub account repository has been created.</li>
+<li>Be introduced to the Unity Game Engine.</li>
+<li>Add the Unity Playground.</li>
+</ul>
+</div>
 
-At the conclusion of this module, students should;
+<div id="Expect" class="tabcontent">
+<p>This week introduces you to your development environment before we jump into designing something.</p>
+</div>
 
-- Ensure that a GitHub account repository has been created.
-- Be introduced to the Unity Game Engine.
-- Be able to use the Unity Playground.
-- Understand assets and scripts.
-- Connect components to scripts
-- Understand the basics of interactivity and collisions
-- Understand the fundamentals of game play
+<div id="Goals" class="tabcontent">
+<p>Goals of the clas</p>
+<ol>
 
-## What to Expect
-
-This session introduces you to a new technology, while also asking you to think about design and content creation. 
-
-## Session Goals
-
-1. Learn how to problem solve. (More specifically, how to break a problem down into sub-problems that are easier to solve by themselves)
-2. Adapt to constantly changing technological paradigms by learning how to learn. (Skills acquisition.)
-3. Combine technical and artistic practices through inquiry and iteration.
+<li>Learn how to problem solve. (More specifically, how to break a problem down into sub-problems that are easier to solve by themselves)</li>
+<li>Adapt to constantly changing technological paradigms by learning how to learn. (Skills acquisition.)</li>
+<li>Combine technical and artistic practices through inquiry and iteration.</li>
+</ol>
+</div>
+<div id="ToDo" class="tabcontent">
+<p>Make sure everything is set up correctly.</p>
+<p>Please take the syllabus quiz below.  It might take a few seconds to load...</p>
+<p><iframe src="https://umontanamediaarts.com/MART120/wp-admin/admin-ajax.php?action=h5p_embed&id=1" width="958" height="343" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://umontanamediaarts.com/MART120/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script></p>
+</div>
