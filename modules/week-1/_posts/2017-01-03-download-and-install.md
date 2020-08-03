@@ -6,8 +6,6 @@ jotted: false
 
 # Download Unity
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
-
 Unity uses centralized software called the Unity Hub, allowing users to install different versions of Unity on the same machine.  The Unity Hub allows you to support today's projects from today as well as ones in the future or even previous projects.
 
 1. First go to Unity <a href="http://unity3d.com/unity/" target="_blank">Unity Download</a>
@@ -22,8 +20,6 @@ Unity uses centralized software called the Unity Hub, allowing users to install 
 
 
 # Install Unity
-
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
 
 After you install the UnityHub, it will attempt to install the most recent version.  It will also have you sign up for an account or login.  I recommend creating an accoun so you can access the Assets Store.
 

@@ -5,8 +5,6 @@ module: 1
 
 # Asset Store 
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
-
 One of the things of which I want you to be aware of is Unity's Asset store.  There are many free and paid assets that you can use in your project.  The one we will use is the Unity Playground.
 
 1. Go to **Window** -> **Asset Store**. 
