@@ -7,7 +7,7 @@ jotted: false
 # Unity
 
 <div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'Download')">Download</button>
+  <button class="tablinks active" onclick="openTab(event, 'Download')">Download</button>
   <button class="tablinks" onclick="openTab(event, 'Install')">Install</button>
 </div>
 

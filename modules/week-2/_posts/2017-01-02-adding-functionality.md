@@ -6,33 +6,43 @@ module: 2
 
 # Making our Ship Functional
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+  <button class="tablinks" onclick="openTab(event, 'RigidBody')">Physics</button>
+  <button class="tablinks" onclick="openTab(event, 'Arrows')">Movement</button>
+</div>
 
-So, let's make the ship move around!  There are two things we need to make this happen.
+<div id="Overview" class="tabcontent" style="display:block">
+<p>So, let's make the ship move around!  There are two things we need to make this happen.</p>
 
-To move, the ship requires two things.  
+<p>To move, the ship requires two things.  </p>
+<ol>
+<li>It needs what is called the RigidBody2D</li>
+<li>Script called Move With Arrows.</li>
+</ol>
+</div>
 
-1. It needs what is called the RigidBody2D
-2. Script called Move With Arrows.
+<div id="RigidBody" class="tabcontent">
 
-## RigidBody2D
+<p>RigidBody2D is vital to any object because it applies physics properties like gravity and mass.</p>
+<ol>
+<li>In the <b>Hierarchy</b> window, select the ship.</li>
+<li>In the <b>Inspector</b>, click <b>Add Component</b>.</li>
+<li>In the dropdown, look for <b>Physics 2D</b> and click <b>RigidBody2D</b></li>
+<li>Once the <b>RigidyBody2D</b> component is added, run the program.  What happens?</li>
+<li>We don't want it to fall through the ground, so let's change the <b>Gravity Scale</b> to zero.</li>
+<li>We also don't want to make the ship fly too fast; we will add some <b>Linear Drag</b>, which is also like friction.  Change the <b>Linear Drag</b> to <b>10</b>. </li>
+</ol>
+<p>What about making it move around?  That's where we add code. Lucky for us, we get to use a pre-built script.</p>
+</div>
 
-RigidBody2D is vital to any object because it applies physics properties like gravity and mass.
+<div id="Arrows" class="tabcontent">
 
-1. In the **Hierarchy** window, select the ship.
-2. In the **Inspector**, click **Add Component**.
-3. In the dropdown, look for **Physics 2D** and click **RigidBody2D**
-4. Once the **RigidyBody2D** component is added, run the program.  What happens?
-5. We don't want it to fall through the ground, so let's change the **Gravity Scale** to zero.
-6. We also don't want to make the ship fly too fast; we will add some **Linear Drag**, which is also like friction.  Change the **Linear Drag** to **10**. 
-
-What about making it move around?  That's where we add code. Lucky for us, we get to use a pre-built script.
-
-## Move With Arrows
-
-1. Click on the **Add Component** again
-2. This time, type in the **Search** bar **Move With Arrows**
-3. After you add the script, press play.  If you use the arrows, the ship should move around.
-4. Now, change the speed variable in the **Inspector** and see what happens.
-
-What about obstacles and collisions?
+We want to also move our ship.  Now, we will add a script to help with that.
+<ol>
+<li>Click on the **Add Component** again</li>
+<li>This time, type in the **Search** bar **Move With Arrows**</li>
+<li>After you add the script, press play.  If you use the arrows, the ship should move around.</li>
+<li>Now, change the speed variable in the **Inspector** and see what happens.</li>
+</ol>
+</div>

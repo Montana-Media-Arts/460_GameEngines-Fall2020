@@ -5,30 +5,37 @@ module: 2
 
 # Obstacles
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+  <button class="tablinks" onclick="openTab(event, 'Collision')">Collision</button>
+</div>
 
-Unity makes it easy to add both obstacles and collision detections!
+<div id="Overview" class="tabcontent" style="display:block">
 
-You know how to add objects to the scene now.  Go ahead and add something new to the scene into which the ship can collide.
+<p>Unity makes it easy to add both obstacles and collision detections!</p>
 
-After you add the new object, add the RigidBody2D.  Leave the gravity on this time, though.
+<p>You know how to add objects to the scene now.  Go ahead and add something new to the scene into which the ship can collide.</p>
 
-Press run, the object should fall through the floor.  Feel free to change the Gravity Scale, so it doesn't fall so fast.
+<p>After you add the new object, add the RigidBody2D.  Leave the gravity on this time, though.</p>
 
-Run the project one more time, moving the ship toward the obstacle.  When you hit the obstacle, does it go right through?
+<p>Press run, the object should fall through the floor.  Feel free to change the Gravity Scale, so it doesn't fall so fast.</p>
 
-# Collision
+<p>Run the project one more time, moving the ship toward the obstacle.  When you hit the obstacle, does it go right through?</p>
 
-How do we add collision in Unity?  Up to this point, we leveraged rectangular collision which was okay, but somewhat imprecise.  Let's use Unity's version.  
 
-Select the ship and then click the Component button again.
+<div id="Collision" class="tabcontent">
 
-Now, click on **Physics 2D** and look for **Polygon Collider 2D**.  This type of collision makes the collision box around all of the curves and angles of the ship.  Cool!
+<p>How do we add collision in Unity?  Up to this point, we leveraged rectangular collision which was okay, but somewhat imprecise.  Let's use Unity's version.  </p>
 
-Notice how it highlights?
+<p>Select the ship and then click the Component button again.</p>
 
-What about the obstacle?
+<p>Now, click on <b>Physics 2D</b> and look for <b>Polygon Collider 2D</b>.  This type of collision makes the collision box around all of the curves and angles of the ship.  Cool!</p>
 
-Do the same thing.  
+<p>Notice how it highlights?</p>
 
-Now, run the project and see if you can make the ship collide with the obstacle.
+<p>What about the obstacle?</p>
+
+<p>Do the same thing.  </p>
+
+<p>Now, run the project and see if you can make the ship collide with the obstacle.</p>
+</div>
