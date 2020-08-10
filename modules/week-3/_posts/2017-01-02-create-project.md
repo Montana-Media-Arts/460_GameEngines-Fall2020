@@ -5,18 +5,8 @@ module: 3
 
 # Create new 2D project
 
-1. Open the Unity Hub
+1. Open the **Unity Hub**
 
-2. Click on New.
+Then, follow these steps.
 
-![New Project](../imgs/NewProject.png)
-
-3. Ensure you choose 2D Template, Give your project a name, and click **Create**
-
-![Settings for New Project](../imgs/SettingsNewProject.png)
-
-4. Then, wait...
-
-5. Now, we see the a blank 2D project.
-
-![Blank Project](../imgs/BlankProject.png)
+<iframe src="https://umontanamediaarts.com/mart460/wp-admin/admin-ajax.php?action=h5p_embed&id=1" width="877" height="519" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://umontanamediaarts.com/mart460/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
