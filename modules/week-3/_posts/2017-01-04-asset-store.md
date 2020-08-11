@@ -5,26 +5,6 @@ module: 3
 
 # Access the Asset Store
 
-1. Go to Asset Store and Search for Assets
+Unity makes it simple to find and add assets to our projects.  Below is a walkthrough showing you how to find and add assets to your project. (this might take a few seconds to load)
 
-![Access Asset Store](../imgs/AssetStoreAccess.png)
-
-2. Choose Assets
-
-![Choose Assets](../imgs/ChooseAssets.png)
-
-4. Download Assets
-
-![Download Assets](../imgs/Download.png)
-
-5. Import Assets
-
-![Import Assets](../imgs/Import.png)
-
-6. Import Assets into Project
-
-![Add Assets to Project](../imgs/AddToProject.png)
-
-7. View Assets in Project window
-
-![View Project Assets](../imgs/ProjectAssets.png)
+<iframe src="https://umontanamediaarts.com/mart460/wp-admin/admin-ajax.php?action=h5p_embed&id=3" width="877" height="519" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://umontanamediaarts.com/mart460/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
