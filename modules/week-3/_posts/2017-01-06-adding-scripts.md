@@ -29,18 +29,18 @@ to
 </div>
 <div id="Project" class="tabcontent">
 
-<p>In the Project window, you will find the movement scripts.</p>
+<p>In the <b>Project</b> window, you will find the movement scripts.</p>
 
 <p><img src="../imgs/MovementScript.png" alt="Movement Scripts" /></p>
 
-<p>After this script is found, then you want to drag the script into the Inspector window to add it to the object.</p>
+<p>After this script is found, then you want to drag the script into the <b>Inspector</b> window to add it to the object.</p>
 
 <p><img src="../imgs/DragScript.png" alt="Drag Script" /></p>
 
 </div>
 <div id="Component" class="tabcontent">
 
-<p>Notice that after the script is added as a component, it adds not only the script, but also the RigidBody2D which is what allows the object to interact in the scene.</p>
+<p>Notice that after the script is added as a component, it adds not only the script, but also the <b>RigidBody2D</b> which is what allows the object to interact in the scene.</p>
 
 <p>Don't forget to adjust the gravity so the object doesn't fall straight down.</p>
 
