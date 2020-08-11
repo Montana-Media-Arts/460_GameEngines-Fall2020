@@ -18,11 +18,11 @@ module: 3
 
 <p>If you want to move scripts over from your Playground project, copy the <b>Scripts</b> and the <b><i>_INTERNAL_</i></b> folder into your <b>Assets</b> folder.  Then, you will need to change the following in the code.</p>
 
-<div style="background-color:blue">
+<div style="background-color:blue;color:white">
   [AddComponentMenu("[name of Playground project]/Movement/Auto Move")]
 </div>
 to
-<div style="background-color:blue">
+<div style="background-color:blue;color:white">
 [AddComponentMenu("[new project]/Movement/Auto Move")]
 </div>
 
