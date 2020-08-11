@@ -17,8 +17,6 @@ module: 3
 <p><img src="../imgs/AddingAssetsToScene.png" alt="Adding Assets to Scene" /></p>
 </div>
 
-## Sorting Layers
-
 <div id="Sorting" class="tabcontent">
 
 <p>Remember, as you add assets, you may want some assets to be above another.  That is where Sorting Layers come in.  You can assign a layer to an object after you create a custom layer.</p>
