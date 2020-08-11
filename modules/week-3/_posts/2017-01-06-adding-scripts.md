@@ -5,34 +5,48 @@ module: 3
 
 # Adding Scripts to Project
 
-If we use existing scripts, we can design a game with custom assets.  This gives us the ability to create prototypes and create proof of concepts before diving into the customization of game programming.  It also allows game designers to focus on what is most important to them - game play.
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Adding</button>
+  <button class="tablinks" onclick="openTab(event, 'Project')">Project Window</button>
+<button class="tablinks" onclick="openTab(event, 'Component')">Script as a Component</button>
 
-If you want to move scripts over from your Playground project, copy the **Scripts** and the **_INTERNAL_** folder into your **Assets** folder.  Then, you will need to change the following in the code.
+</div>
 
-```csharp
+<div id="Overview" class="tabcontent" style="display:block">
+
+<p>If we use existing scripts, we can design a game with custom assets.  This gives us the ability to create prototypes and create proof of concepts before diving into the customization of game programming.  It also allows game designers to focus on what is most important to them - game play.</p>
+
+<p>If you want to move scripts over from your Playground project, copy the <b>Scripts</b> and the <b><i>_INTERNAL_</i></b> folder into your <b>Assets</b> folder.  Then, you will need to change the following in the code.</p>
+
+<div style="background-color:blue">
   [AddComponentMenu("[name of Playground project]/Movement/Auto Move")]
-```
-
+</div>
 to
-
-```csharp
+<div style="background-color:blue">
 [AddComponentMenu("[new project]/Movement/Auto Move")]
-```
+</div>
 
-In the Project window, you will find the movement scripts.
+</div>
+<div id="Project" class="tabcontent">
 
-![Movement Scripts](../imgs/MovementScript.png)
+<p>In the Project window, you will find the movement scripts.</p>
 
-After this script is found, then you want to drag the script into the Inspector window to add it to the object.
+<p><img src="../imgs/MovementScript.png" alt="Movement Scripts" /></p>
 
-![Drag Script](../imgs/DragScript.png)
+<p>After this script is found, then you want to drag the script into the Inspector window to add it to the object.</p>
 
-Notice that after the script is added as a component, it adds not only the script, but also the RigidBody2D which is what allows the object to interact in the scene.
+<p><img src="../imgs/DragScript.png" alt="Drag Script" /></p>
 
-Don't forget to adjust the gravity so the object doesn't fall straight down.
+</div>
+<div id="Component" class="tabcontent">
 
-![Components after Script](../imgs/ComponentsAfterScript.png)
+<p>Notice that after the script is added as a component, it adds not only the script, but also the RigidBody2D which is what allows the object to interact in the scene.</p>
 
-Finally, press play to see how the script and the object work together.
+<p>Don't forget to adjust the gravity so the object doesn't fall straight down.</p>
 
-![Press Play](../imgs/PressPlay.png)
+<p><img src="../imgs/ComponentsAfterScript.png" alt="Components after Script" /></p>
+
+<p>Finally, press play to see how the script and the object work together.</p>
+
+<p><img src="../imgs/PressPlay.png" alt="Press Play" /></p>
+</div>
