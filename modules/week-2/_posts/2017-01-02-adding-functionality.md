@@ -40,9 +40,9 @@ module: 2
 
 We want to also move our ship.  Now, we will add a script to help with that.
 <ol>
-<li>Click on the **Add Component** again</li>
-<li>This time, type in the **Search** bar **Move With Arrows**</li>
+<li>Click on the <b>Add Component</b> again</li>
+<li>This time, type in the <b>Search</b> bar <b>Move With Arrows</b></li>
 <li>After you add the script, press play.  If you use the arrows, the ship should move around.</li>
-<li>Now, change the speed variable in the **Inspector** and see what happens.</li>
+<li>Now, change the speed variable in the <b>Inspector</b> and see what happens.</li>
 </ol>
 </div>
