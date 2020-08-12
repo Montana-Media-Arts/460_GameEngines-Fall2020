@@ -17,8 +17,8 @@ module: 2
 
 <p>To move, the ship requires two things.  </p>
 <ol>
-<li>It needs what is called the RigidBody2D</li>
-<li>Script called Move With Arrows.</li>
+<li>It needs what is called the <b>RigidBody2D</b></li>
+<li>Script called <b>Move With Arrows</b>.</li>
 </ol>
 </div>
 
