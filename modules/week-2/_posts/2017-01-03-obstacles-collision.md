@@ -21,7 +21,7 @@ module: 2
 <p>Press run, the object should fall through the floor.  Feel free to change the Gravity Scale, so it doesn't fall so fast.</p>
 
 <p>Run the project one more time, moving the ship toward the obstacle.  When you hit the obstacle, does it go right through?</p>
-
+</div>
 
 <div id="Collision" class="tabcontent">
 
