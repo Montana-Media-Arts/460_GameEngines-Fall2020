@@ -8,6 +8,7 @@ module: 2
 <div class="tab">
   <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
   <button class="tablinks" onclick="openTab(event, 'Collision')">Collision</button>
+  <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
 </div>
 
 <div id="Overview" class="tabcontent" style="display:block">
@@ -37,4 +38,14 @@ module: 2
 <p>Add a <b>collider</b> component to the obstacle.</p>
 
 <p>Run the project and see if you can make the ship collide with the obstacle.</p>
+</div>
+<div id="ToDo" class="tabcontent">
+  What about different types of collision?
+  <ol>
+  <li>Apply the Box collider</li>
+  <li>Apply the Capsule collider</li>
+  <li>What were the differences?</li>
+  <li>Discuss what happened with a classmate?  Which ones were most effective? Why?</li>
+  <li>Discuss your findings with the group</li>
+  </ol>
 </div>

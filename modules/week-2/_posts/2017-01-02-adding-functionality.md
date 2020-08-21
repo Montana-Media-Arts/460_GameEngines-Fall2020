@@ -10,6 +10,7 @@ module: 2
   <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
   <button class="tablinks" onclick="openTab(event, 'RigidBody')">Physics</button>
   <button class="tablinks" onclick="openTab(event, 'Arrows')">Movement</button>
+  <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
 </div>
 
 <div id="Overview" class="tabcontent" style="display:block">
@@ -46,3 +47,16 @@ We want to also move our ship.  Now, we will add a script to help with that.
 <li>Now, change the speed variable in the <b>Inspector</b> and see what happens.</li>
 </ol>
 </div>
+
+<div id="ToDo" class="tabcontent">
+
+What if we wanted to change things around?
+<ol>
+<li>Make it so you can move the ship using WASD</li>
+<li>Change the Gravity and Linear Drag.  What happens if you go up? What happens if you go down?</li>
+<li>Change the speed.  What if that goes up or down?</li>
+<li>Discuss this with a peer.  What changes did you all make?</li>
+<li>What was most effective?</li>
+</ol>
+</div>
+
