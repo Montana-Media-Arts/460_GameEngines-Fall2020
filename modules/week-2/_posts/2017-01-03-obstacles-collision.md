@@ -44,7 +44,7 @@ module: 2
   <ol>
   <li>Think for 2-3 minutes about colliders and their importance.  How do they work?</li>
   <li>Spend 2-3 minutes altering your project to add the <b>Box collider</b> to your ship.</li>
-  <li>Spend 2-3 minutes altering your project to add the<b>Capsule collider</b> to your obstacle</li>
+  <li>Spend 2-3 minutes altering your project to add the <b>Capsule collider</b> to your obstacle</li>
   <li>Were there any differences when they collided this time?</li>
   <li>Spend 5 minutes discussing what happened with a classmate.  Which collisions components were most effective? Why?  When might you use one over another? What are the tradeoffs?</li>
   <li>Discuss your findings with the group</li>
