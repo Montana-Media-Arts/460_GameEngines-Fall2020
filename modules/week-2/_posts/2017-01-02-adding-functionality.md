@@ -53,10 +53,12 @@ We want to also move our ship.  Now, we will add a script to help with that.
 <p>What if we wanted to change things around?</p>
 
 <ol>
-<li>Make it so you can move the ship using <b>WASD</b></li>
-<li>Change the <b>Gravity</b> and <b>Linear Drag</b>.  What happens if you go up? What happens if you go down?</li>
-<li>Change the speed.  What if that goes up or down?</li>
-<li>Discuss this with a peer.  What changes did you all make?</li>
+<li>Think for 2-3 minutes about what the RigidBody is and what it does.</li>
+<li>Spend 2-3 minutes altering your project so you can move the ship using <b>WASD</b></li>
+<li>Spend 2-3 minutes changing the <b>Gravity</b> and <b>Linear Drag</b>.  What happens if you go up? What happens if you go down?</li>
+<li>Spend 1-2 minutes changing the speed.  What if that goes up or down?</li>
+<li>Spend 5 minutes discussing this with a classmate.  What changes did you all make?</li>
 <li>What was most effective?</li>
+<li>Talk to the class about your findings</li>
 </ol>
 </div>
