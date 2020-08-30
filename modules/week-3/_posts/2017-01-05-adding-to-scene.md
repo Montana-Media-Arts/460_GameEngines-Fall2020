@@ -8,6 +8,7 @@ module: 3
 <div class="tab">
   <button class="tablinks active" onclick="openTab(event, 'Overview')">Adding</button>
   <button class="tablinks" onclick="openTab(event, 'Sorting')">Sorting Layers</button>
+  <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
 </div>
 
 <div id="Overview" class="tabcontent" style="display:block">
@@ -26,4 +27,9 @@ module: 3
 <p>You can also set the order of the layers.</p>
 
 <p><img src="../imgs/SortingLayer2.png" alt="Sorting Layer Ordering" /></p>
+</div>
+
+<div id="ToDo" class="tabcontent">
+  Add two or more objects and put them on different layers.  Why would you do that?
+  
 </div>
