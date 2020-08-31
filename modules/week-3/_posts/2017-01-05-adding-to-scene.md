@@ -30,6 +30,6 @@ module: 3
 </div>
 
 <div id="ToDo" class="tabcontent">
-  Add two or more objects and put them on different layers.  Why would you do that?
+  <p>Add two or more objects and put them on different layers.  Why would you do that?</p>
   
 </div>
