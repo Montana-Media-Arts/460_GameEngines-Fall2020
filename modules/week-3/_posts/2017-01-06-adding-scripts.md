@@ -10,7 +10,7 @@ module: 3
   <button class="tablinks" onclick="openTab(event, 'Project')">Project Window</button>
 <button class="tablinks" onclick="openTab(event, 'Component')">Script as a Component</button>
 <button class="tablinks" onclick="openTab(event, 'Custom')">Custom Script</button>
-<button class="tablinks" onclick="openTab(event, 'To Do')">To Do</button>
+<button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
 
 </div>
 
