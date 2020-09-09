@@ -8,29 +8,31 @@ jotted: true
 
 ## Create a new Scene
 
-1. Duplicate the Blank Scene and rename it to something else.
+1. Duplicate the **Blank Scene** and rename it to something else.
 
-2. Look at the TileMap Palette - Window - 2D - Tile Palette.
+2. Display the **TileMap Palette** (if not shown) - **Window** -> **2D** -> **Tile Palette**.
 
-3. Make sure the Active Tilemap is chosen and match the Object in the Hierarchy.
+3. Create a **TileMap** object in the **Hierarchy**.
 
-4. Paint some tiles onto the scense.
+4. Make sure the **Active Tilemap** is chosen and match the **Object in the Hierarchy**.
 
-5. Save your Scene and press Play.
+5. Paint some background tiles onto the scene.
 
-6. Press Stop.  
+6. Save your **Scene** and press **Play**.
 
-7. Now, create a House in the Midground.
+7. Press **Stop**.  
 
-8. Add the Roof from the Prefabs.
+8. Now, create a **House** in the Midground.
 
-9. Change the Roof so that it fits over your house.
+9. Add the **Roof** from the **Prefabs**.
 
-10. Change the fade effect so that it's tranparent if you go into the house.  Change the Order in Layer to 1000.
+10. Change the Roof so that it fits over your house.
 
-11. Add a Box Collider 2D to the Roof.  Make sure the Is Trigger is checked.
+11. Add the Fading Sprite Script to the Roof.  You can search for it in the Components.
 
-12. Add the Fading Sprite Script to the Roof.  You can search for it in the Components.
+12. Change the **fade** effect so that it's tranparent if you go into the house.  Add the **Fade Script**.  Change the **Order in Layer** to **1000**.
 
-13. Feel free to add a Door and Chimney to your house - they are in the Prefabs folder as well.
+13. Add a **Box Collider 2D** to the Roof.  Make sure the **Is Trigger** is checked.
+ 
+14. Feel free to add a **Door** and **Chimney** to your house - they are in the Prefabs folder as well.
 
