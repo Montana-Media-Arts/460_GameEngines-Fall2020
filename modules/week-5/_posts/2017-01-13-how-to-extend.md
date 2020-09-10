@@ -1,6 +1,6 @@
 ---
 title: How to Extend
-module: 3
+module: 5
 jotted: true
 ---
 
