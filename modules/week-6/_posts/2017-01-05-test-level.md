@@ -6,7 +6,6 @@ jotted: true
 
 # Test the Level
 
-Testing Your Level
 Now that you have created a level, it’s time to run around in it.
 
 Press Play at the top of the Editor
