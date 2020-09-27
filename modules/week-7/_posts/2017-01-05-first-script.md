@@ -24,7 +24,7 @@ Remember to press Ctrl/Cmd + S regularly to save your changes to disk. That way,
 
 This Project is called Ruby's 2D Adventure because the main character is called Ruby, and you’re making a basic adventure game in a 2D environment. You get the idea. So let’s find Ruby! 
 
-1. Save the following image on your computer by downloading it from the Tutorial Materials at the top of this tutorial.  
+1. Save the images on your computer by downloading it from the Tutorial Materials.  
 2. Drag and drop the file into **Art > Sprites**, so that Unity copies it into your Project folders and imports it with the default settings.
 3. Because your Project was created with the 2D template, the image is automatically imported as a Sprite. 
 
