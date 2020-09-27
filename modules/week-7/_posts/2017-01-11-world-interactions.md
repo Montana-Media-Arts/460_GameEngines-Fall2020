@@ -297,36 +297,29 @@ There’s one last small step to set up your Tilemap Collider. Currently, each t
 This works fine, but it creates two problems:
 It’s heavier on computation for the physics system; if you have a big world, it can start slowing down your game.
 
-
 It can create small problems on the borders between tiles. Since they are two Colliders side-by-side, and there is a tiny gap between them, sometimes tiny imprecisions in the computation can lead to rare occurrences where collision will still happen.
 To address these issues, Unity offers a component called a Composite Collider 2D. This takes all Colliders on the objects (or on children of the objects) and makes one big Collider from them.
 
 Let’s add and configure this component:
 
-1.  In the Hierarchy, select the Tilemap GameObject. 
-
-
-2.  In the Inspector, click the Add Component button.
-
-
-3.  Search for “Composite Collider 2D” and select this component. 
+1. In the Hierarchy, select the Tilemap GameObject. 
+2. In the Inspector, click the Add Component button.
+3. Search for “Composite Collider 2D” and select this component. 
 You will see that this automatically adds a Rigidbody 2D, because the composite Collider needs a Rigidbody 2D to work properly.
-4.  In the Tilemap Collider 2D component, enable the Used By Composite checkbox. 
-
-
-5.  In the Rigidbody 2D component, set the Rigidbody Body Type property to Static. 
+4. In the Tilemap Collider 2D component, enable the Used By Composite checkbox. 
+5. In the Rigidbody 2D component, set the Rigidbody Body Type property to Static. 
 
 Setting this to Static will stop your world from moving. It also helps the Physics System optimize computation, as it now knows that Rigidbody can’t move.
 
-
 Now the Collider around your water tiles is a single big rectangle (you can enable and disable Used by Composite on your Tilemap Collider to compare with and without in the Scene view).
+
 If you paint new water Tiles, Unity automatically updates the Composite Collider of the Tilemap to include those new Colliders.
 
+### Check Your Script
 
-Mark step as completed
-14.Check Your Script
 Your RubyController script should now look like this:
 
+```csharp
 public class RubyController : MonoBehaviour
 {
     Rigidbody2D rigidbody2d;
@@ -355,12 +348,12 @@ public class RubyController : MonoBehaviour
         rigidbody2d.MovePosition(position);
     }
 }
+```
 
+### Summary
 
-Mark step as completed
-15.Summary
-In this tutorial, you have:
-Explored the basics of the Physics System in Unity
-Added a Rigidbody component to make the Physics System handle objects 
-Added a Collider to make objects collide together
-In the next tutorial, you will extend your use of the Physics System to detect character collisions with gameplay objects (for example, collectible health packs).
+In this section, you have:
+1. Explored the basics of the Physics System in Unity
+2. Added a Rigidbody component to make the Physics System handle objects
+3. Added a Collider to make objects collide together
+4. In the next section, you will extend your use of the Physics System to detect character collisions with gameplay objects (for example, collectible health packs).
