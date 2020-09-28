@@ -40,10 +40,9 @@ The Tilemap doesn’t directly use Sprites, it uses Tiles. To create a new Tile:
 
 To assign a Sprite to your Tile:
 
-1. In the Tutorial Materials at the top of this page, download Tile.png and save it on your computer.
-2. Just as you did with Ruby.png, save this Tile inside your Sprites folder:
-3. Make sure that the FirstTile Tile is still selected in the Project window.
-4. In the Inspector, click the circle select button to the right of the Sprite property. This will open a dialog window, where all the Sprites of your project appear. Select the one you just saved in the Project.
+1. Just as you did with Ruby.png, save this Tile inside your Sprites folder:
+2. Make sure that the FirstTile Tile is still selected in the Project window.
+3. In the Inspector, click the circle select button to the right of the Sprite property. This will open a dialog window, where all the Sprites of your project appear. Select the one you just saved in the Project.
 
 Alternatively, you can drag and drop the Sprite you just saved from the Project folder to the Sprite property slot in the Inspector.
 
