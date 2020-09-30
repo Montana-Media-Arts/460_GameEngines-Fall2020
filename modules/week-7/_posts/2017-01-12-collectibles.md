@@ -21,6 +21,7 @@ public class RubyController : MonoBehaviour
     
     Rigidbody2D rigidbody2d;
     float horizontal;
+    float vertical;
     
     // Start is called before the first frame update
     void Start()
