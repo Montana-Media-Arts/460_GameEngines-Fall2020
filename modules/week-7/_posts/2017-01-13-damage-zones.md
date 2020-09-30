@@ -6,6 +6,8 @@ jotted: true
 
 # Damage Zones and Enemies
 
+<a href="../imgs/bot.png" target="_new">Download the Bot</a>
+
 ## Reset Ruby’s Health
 
 First, let's make sure you don’t start with Ruby's Health set to 1, which you changed in the previous section:
