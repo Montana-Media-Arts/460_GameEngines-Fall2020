@@ -32,4 +32,3 @@ Ensure you see a horizontal line when you drag the object underneath ----- Envir
 In the event that you accidentally place it as a child of the label, you can simply move it back and try again.
 
 
-Mark step as completed

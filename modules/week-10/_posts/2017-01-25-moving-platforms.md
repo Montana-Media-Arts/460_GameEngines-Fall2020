@@ -69,5 +69,3 @@ You should see a link line with directional arrow heads in the Scene view from t
 
 Play your game and walk on the One Shot PressurePad (it should stay pressed) to activate the MovingPlatform and begin the looping sequence.
 
-
-Mark step as completed
