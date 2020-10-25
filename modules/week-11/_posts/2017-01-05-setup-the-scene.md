@@ -6,72 +6,46 @@ jotted: false
 
 # Setup the Scene
 
-I find in programming that often is it is useful to have some context indicating why I am creating something.  That is why  I had you create a self-portrait. Now, we are going to create some interactive art using events.
+Create a new project.  Choose the 3D template.
 
-Have any of you played Spore?  Let's make something like that.  (minus the more beautiful graphics). We will use simple shapes to reduce complexity.
+Before you begin to create your game, you need to set up your workspace and create a new scene. 
 
-First, let's set up our scene.
+In the top right of the Unity window, you will find a dropdown menu labeled Layout. 
 
-```js
-    var x = 50;
-    var y = 50;
-    var diameter = 25;
-    function setup()
-    {
-        createCanvas(800,600);
-    }
-    function draw()
-    {
-        background(0);
-        fill(24,200,29);
-        circle(x,y,diameter);
-    }
-```
+A layout is a collection of stored positions of the tabs in Unity. 
 
-Here we just created a simple black background and added a greenish circle to it.
+These tutorials use the Default Layout so it's easier for you to follow along. 
 
-We know how to make it move.
+But you can change and save layouts you enjoy by using this menu. 
 
-```js
-    var x = 50;
-    var y = 50;
-    var diameter = 25;
-    function setup()
-    {
-        createCanvas(800,600);
-    }
-    function draw()
-    {
-        background(0);
-        fill(24,200,29);
-        circle(x,y,diameter);
-        x+=10;
-    }
-```
+These are saved in the Unity editor settings so you can store and use them for different projects. 
 
-That moves our circle to the right because we are adding to x.  Remember that x,y, and diameter are variables.  We are just changing (or can change) the values stored in those variables, which makes them useful.  Yes?  Good!
+Now you've set a layout, you're ready to create a new scene. 
 
-Hopefully, you also found out that if you change x and y and diameter at the same time, some exciting things happen.  The concepts we learned last week will be the starting point for this week.
+Scenes are ways to organize the things in your game. 
 
-```js
-    var x = 50;
-    var y = 50;
-    var diameter = 25;
-    function setup()
-    {
-        createCanvas(800,600);
-    }
-    function draw()
-    {
-        background(0);
-        fill(24,200,29);
-        circle(x,y,diameter);
-        x+=10;
-        y+=3;
-        diameter+=8;
-    }
-```
+You can think of them as different levels. 
 
-Fun! Where do we go from here? Let's talk about the conditions.  What are those? If, if/else, and if/else if statements.  We have seen the first two, but maybe not the third one. We will look at those.
+The template scene that is currently loaded showcases some of the basic features of URP. 
 
-<a href="https://umontana.zoom.us/recording/share/mHw0xqCy5nbGnAWXfee7J6l6bjxFyOzw0BAW635APuWwIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+Feel free to explore it before you create your own. 
+
+To create a new scene in the editor, in the top menu, go to File > New Scene. 
+
+Before you save, let's create a new template folder within the Assets directory and move all of the existing asset folders there to keep the project organized. 
+
+It's super important to keep your project tidy, trust me. 
+
+It will help you and others find assets later down the line. 
+
+Next, save the scene by going back to File > Save As. 
+
+Now save your scene into the new folder called Scenes. 
+
+Let's call the scene MiniGame. 
+
+In the project window, you can now see the scenes folder. 
+
+And inside that, the scene called MiniGame. 
+
+Now that you've set up your scene, in the next video, you'll start creating the play area for your game.
