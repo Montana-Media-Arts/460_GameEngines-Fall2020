@@ -42,4 +42,3 @@ To do this, in the Inspector, find the Transform component.
 
 Set the position y-value to 0.5. 
 
-Great, now that you've set this up, in the next video, you'll think about the lighting in the scene of your game.

@@ -26,7 +26,6 @@ Whenever you expand a component like this, it will also toggle the relevant gizm
 
 Okay, now that the player GameObject can interact with the physics system, it's time to apply some forces to it. 
 
-In the next video, you'll install the Input System package so you can do just that.
 
 ## Input Package
 
@@ -226,11 +225,14 @@ The PlayerInput component will be sending data of type input value to your scrip
 
 These are variables which will be used to store and reference data for the function. 
 
-Inside the parenthesis, in your function call, add InputValue movementValue. movementValue is the name of the variable you will use within the function. 
+Inside the parenthesis, in your function call, add **InputValue movementValue**.
+
+movementValue is the name of the variable you will use within the function. 
 
 InputValue is the type of variable. 
 
 Variables can have different data types, which means they store different types of data. 
+
 The movement of the Roll-a-Ball sphere will be captured in two directions, up and down and left and right. 
 
 In other words, the MovementValue variable will capture and store the data from the X direction and the Y direction of input devices. 
@@ -243,7 +245,11 @@ In the last video, you wrote a declaration for the OnMove function.
 
 Next, let's use the method Get to get to movement input data from the sphere and store it as a Vector2 variable. 
 
-In the space inside the OnMove function, add the line, Vector2 movementVector = movementValue.get < Vector2 > ; 
+In the space inside the OnMove function, add the line, 
+
+```csharp
+Vector2 movementVector = movementValue.get < Vector2 >() ; 
+```
 
 This code takes or gets the Vector2 data from the movement value and stores it in a Vector2 variable you are creating called movementVector. 
 
@@ -263,7 +269,7 @@ This will hold a reference to the Rigidbody you need to access.
 
 The variable is private and not public, because you don't need this variable to be accessible from the Inspector or from other scripts right now. 
 
-Next, inside the Start function, write rb = GetComponent <Rigidbody> ; 
+Next, inside the Start function, write rb = GetComponent &lt;Rigidbody&gt;() ; 
 
 This sets the value of the variable rb by getting a reference to the Rigidbody component attached to the player sphere GameObject. 
 

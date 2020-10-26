@@ -30,9 +30,9 @@ Next, let's change the color of this background material.
 
 In the Project window, select the background material and review the Inspector. 
 
-In the surface input section, the first property is Base Map. 
+In the surface input section, the first property is Main Map. 
 
-Select the Base Maps color field, to open a color picker. 
+Select the Main Maps color field, to open a color picker. 
 
 Change the color to a pale gray. 
 
@@ -62,7 +62,7 @@ In the Project window, select Create > Material.
 
 Name this new material, Player. 
 
-In the Inspector, select the Base Maps color field to open a color picker. 
+In the Inspector, select the Main Maps color field to open a color picker. 
 
 Set the RGB values to 0, 220, and 255, which is a nice light blue. 
 
